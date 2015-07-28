@@ -1,0 +1,6 @@
+# BEGIN SpeedLight Cache 
+RewriteEngine on
+#Options All -Indexes
+RewriteBase /
+RewriteRule ^([/]?)$ cache.php?sec=home [L]
+# END SpeedLight Cache
